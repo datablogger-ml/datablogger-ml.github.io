@@ -2931,6 +2931,48 @@ input, select, textarea {
 				color: #ffffff;
 			}
 
+/* Navbar */
+
+  .navbar-nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	font-size: 1.25rem;
+	float: none;
+	margin: 0 auto;
+	display: none;
+	text-align: center;
+	z-index: 999;
+  }
+  .navbar-nav > li {
+	display: inline-block;
+	float: none;
+  }
+
+  .navbar-nav > li > a {
+	box-shadow: none;
+  }
+
+  @media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	.navbar-nav > li {
+	  display: initial;
+	  text-align: initial;
+	}
+  }
+  .navbar-nav.navbar-nav > li > a:hover {
+	color: #6C63FF !important;
+  }
+  
+  .navbar {
+	display: flex;
+  }
+  @media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	.navbar {
+	  display: none;
+	}
+  }
+
 /* Header */
 
 	#header {

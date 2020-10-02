@@ -30,3 +30,17 @@
 		$('.scrolly').scrolly();
 
 })(jQuery);
+
+(function ($) {
+  $(document).ready(function(){
+    $(function () {
+        $(window).scroll(function () {
+			if ($(this).scrollTop() > 590) {
+				$('.navbar-nav').css("display", "block").fadeIn(500);
+			} else {
+				$('.navbar-nav').fadeOut(50);
+			}
+        });
+	});
+})
+})(jQuery);
