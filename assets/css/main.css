@@ -72,6 +72,27 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* ScrollBar starts*/
+/* width */
+::-webkit-scrollbar {
+	width: 6px;
+  }
+  ::-webkit-scrollbar:horizontal {
+	height: 6px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #4870B2;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #86BC88;
+  }
+  
+  /* ScrollBar ends*/
+
 /* Basic */
 
 	html {
@@ -83,7 +104,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #fafafa;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2819,7 +2840,7 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #fff;
+			background: transparent;
 		}
 
 		.main.style2 {
