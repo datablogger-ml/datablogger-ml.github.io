@@ -1,285 +1,372 @@
-<!DOCTYPE HTML>
-<!--
-	My PortFolio - Vasu
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-	<head>
-		<title>Vasu Bhadra Singh</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vasu's Portfolio</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- main style -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-	<body class="is-preload">
+<body>
 
-		<!-- Navbar -->
-		<div class="navbar">
-			<ul class="navbar-nav">
-				<li><a href="#one" class="button scrolly">About Me</a></li>
-				<li><a href="#two" class="button scrolly">Skills</a></li>
-				<li><a href="#three" class="button scrolly">Projects</a></li>
-				<li><a href="#four" class="button scrolly">Resume</a></li>
-				<li><a href="#footer" class="button scrolly">Contact</a></li>
-			</ul>
-		</div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
 
-		<!-- Header -->
-			<section id="header">
-				<div class="inner">
-					<span class="icon solid major fa-laptop-code"></span>
-					<h1><strong>VASU BHADRA SINGH</strong>
-					</h1>
-					<p>The #1 Deep Learning Excuse for Legitimately slacking off: <br />
-					"MY MODEL IS TRANING".</p>
-					<ul class="actions special">
-						<li><a href="#one" class="button scrolly">About Me</a></li>
-						<li><a href="#two" class="button scrolly">Skills</a></li>
-						<li><a href="#three" class="button scrolly">Projects</a></li>
-						<li><a href="#four" class="button scrolly">Resume</a></li>
-						<li><a href="#footer" class="button scrolly">Contact</a></li>
-					</ul>
-				</div>
-			</section>
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
 
-		<!-- One -->
-			<section id="one" class="main style1" data-aos="fade-up">
-				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
-							<header class="major">
-								<h2>ABOUT ME</h2>
-							</header>
-							<p style="line-height: 2.5">
-								Hi! I'm Vasu Bhadra Singh, a Data Science Enthusiast from New Delhi, India.
-								Since stepping into the world of machine learning and tech during college days,
-								I have been experimenting with various programming tools. I pursued my Bachelor's of
-								Technology in Electronics and Communication at Vellore Institute of Technology and at
-								the same time dabbling in the world of programming and predictive analysis.
-								Currently, I am an Associate in the Data Intelligence Group at TreVista, where I work on creating
-								end-to-end CI/CD pipelines using Google Cloud Functions and collaborate with various
-								cross-functional teams to provide solutions for data analysis and reporting.
-								I also have experience in building private equity fund models, executing the development
-								of fully scalable FastAPI endpoints in private cloud environments, and implementing
-								multiple backtesting strategies for hedge funds.
+        </div>
+    </div>
+    <!-- ./Preloader -->
+    
+    <!-- header -->
+    <header class="navbar-fixed-top">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#resume">resume</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ./header -->
+    
+    <!-- home -->
+    <div class="section" id="home" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="disply-table">
+                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
+                    <h4>Vasu Singh</h4>
+                    <h1>Data &<br /> Analytics Specialist</h1> </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./home -->
+    
+    <!-- about -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="col-md-6" data-aos="fade-up">
+                <h4>01</h4>
+                <h1 class="size-50">Know <br /> About me</h1>
+                <div class="h-50"></div>
+                <p><b>Hey there, I'm Vasu!</b></p>
+                <p>Data Enthusiast and Problem-Solver Extraordinaire</p>
+                <p><b>Who Am I?</b></p>
+                <p>I'm not your average data geek—I'm a problem-solving wizard with a flair for all things data.</p>
+                <p>I'm currently rocking the role of an Associate in the <a href="https://www.tresvista.com/our-services/data-intelligence-group/" target="_blank">Data Intelligence Group</a>. Here, I'm in the zone, crafting completely automated CI/CD data pipelines with Google Cloud Functions and teaming up with experts from all walks of life to dish out data-driven solutions and eye-popping reports. On top of that, I've got my hands dirty with building automated waterfall models for big private equity clients, super-scalable FastAPI endpoints hosted in containerized servers for big applications, and battle-tested multiple complex backtesting strategies.</p>
+                <p><b>Beyond the Data Crunching</b></p>
+                <p>When I'm not diving deep into data, you'll catch me running wild on the football field or smashing birdies on the badminton court. I've got an ear for music that's as good as my data skills, and I'm a hardcore anime aficionado.</p>
+                <p><b>Get in Touch</b></p>
+                <p>Ready to start a conversation? Drop me a message at my email or connect with me on Social Media [See Contact Section]. Let's turn our ideas into reality.</p>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-6 about-img-div">
+                <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
+                <img src="img/vasu_about.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            </div>
+        </div>
+    </div>
+    <!-- ./about -->
+    
+    <!-- experience  -->
+    <div class="section" id="experience">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>02</h4>
+                <h1 class="size-50">My <br /> Experience</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">March 2021 - Present</p>
+                            <h3>TresVista</h3>
+                            <h4>Associate</h4>
+                            <p> 1. Executed the development of fully scalable FastAPI endpoints for a notice generation application on Python through privately deployed serverless Cloud Run containers for a private equity secondaries fund
+                            </p>
+                            <h4>Senior Analyst</h4>
+                            <p>1. Established automated end-to-end CI/CD pipelines using Google Cloud Functions to extract data using APIs
+                            <br>2. Collaborated with cross-functional teams to understand data needs and provided solutions for data analysis and reporting by orchestrating multiple Cloud Workflows
+                            <br>3. Built a private equity fund model automated at a daily level based on a waterfall sequence of tranches for a Special Purpose Vehicle (SPV) using object-oriented programming in Python
+                            </p>
+                            <h4>Analyst</h4>
+                            <p>1. Implemented multiple backtesting strategies for IPOs and Follow-Ons to identify volatility and returns using Python for a leading hedge fund client and provided automated P&L Excel reports, resulting in improved efficiency by 85% and scalability of strategy analysis
+                            <br>2. Collaborated with portfolio managers to understand their investment strategies and created a user interface for the execution of the algorithms using streamlit to visualize and analyze trends in the form of charts and tables
+                            <br>3. Created and tested a custom hypothesis using Agglomerative Hierarchical Clustering to figure out the best-performing stocks for a 6 month rolling period, based on fundamental financial metrics like ROIC, P/B, P/E and UFCF
+                            </p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">February 2020 - July 2020</p>
+                            <h3>Aditya Birla Management Corporation</h3>
+                            <h4>Data Science Intern</h4>
+                            <p>1. Worked on a team to develop and implement analytical solutions for predicting Crude Oil prices and predicting if the market will be bullish or bearish
+                            <br>2. Collaborated with subject matter experts to understand market trends and gather data on factors affecting crude oil prices such as oil rig counts, weekly stocks in the ARA region, OPEC production capacity
+                            <br>3. Implemented advanced algorithms like various univariate Time Series (ARIMA, SARIMA) and multivariate forecasting Models (XgBoost, RandomForest) on Nvidia DGX systems to train and predict the price of crude oil with up to 50% fidelity
+                            <br>4. Implemented Grid Search to find a set of optimal hyperparameter values for the optimized algorithm which maximizes the model's performance
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ./experience -->
+    
+    <!-- projects -->
+    <div class="section" id="projects">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>03</h4>
+                <h1 class="size-50">My <br /> Projects</h1> 
+            </div>
+            <!-- main container -->
+            <div class="main-container portfolio-inner clearfix">
+                <!-- portfolio div -->
+                <div class="portfolio-div">
+                    <div class="portfolio">
+                        <!-- portfolio_filter -->
+                        <div class="categories-grid wow fadeInLeft">
+                            <nav class="categories">
+                                <ul class="portfolio_filter">
+                                    <li><a href="" class="active" data-filter="*">All</a></li>
+                                    <li><a href="" data-filter=".photography">Photography</a></li>
+                                    <li><a href="" data-filter=".logo">Logo</a></li>
+                                    <li><a href="" data-filter=".graphics">Graphics</a></li>
+                                    <li><a href="" data-filter=".ads">Advertising</a></li>
+                                    <li><a href="" data-filter=".fashion">Fashion</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- portfolio_filter -->
+                        
+                        <!-- portfolio_container -->
+                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6  fashion logo">
+                                <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/01.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Mockups in seconds</span> <em>Fashion / Logo</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 ads graphics">
+                                <a id="demo02" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Floating mockups</span> <em>Ads / Graphics</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 photography">
+                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 fashion ads">
+                                <a id="demo04" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/04.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Held by hands</span> <em>Fashion / Ads</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 graphics ads">
+                                <a id="demo05" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 photography">
+                                <a id="demo06" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/010.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 graphics ads">
+                                <a id="demo07" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/06.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 graphics ads">
+                                <a id="demo08" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/07.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 graphics ads">
+                                <a id="demo09" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/08.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                        </div>
+                        <!-- end portfolio_container -->
+                    </div>
+                    <!-- portfolio -->
+                </div>
+                <!-- end portfolio div -->
+            </div>
+            <!-- end main container -->
+        </div>
+    </div>
+    <!-- ./projects -->
+    
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>04</h4>
+                <h1 class="size-50">Contact  Me</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up">
 
-							</p>
-							<blockquote>'A data scientist is that unique blend of skills that can both unlock the insights of data and tell a fantastic story via the data.'</blockquote>
-						<div class="table-wrapper">
-							<table class="alt">
+                <h3>Phone Number</h3>
+                <p>+20 5555 569 42</p>
+                <h3> Mobile Numberr</h3>
+                <p>+20 5555 569 42</p>
+                <h3>Email</h3>
+                <p>mail@info.me </p>
 
-								<thead>
-									<tr>
-										<th>Tenure</th>
-										<th>Company</th>
-										<th>Role</th>
-										<th>Function</th>
-									</tr>
-								</thead>
+                <h3>Social Network</h3>
 
+                <ul class="social">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-8" data-aos="fade-up">
+                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
+                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
+                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
+                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
+                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+                    <div id="success">
+                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
+                    </div>
+                    <div id="error">
+                        <p> Something went wrong, try refreshing and submitting the form again. </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- ./contact -->
 
-								<tbody>
-									<tr>
-										<td>2021-</td>
-										<td>TresVista</td>
-										<td>Associate</td>
-										<td>Data Intelligence Group</td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>12<sup>th</sup></td>
-										<td>Apeejay School, Noida</td>
-										<td>Science: 92.4%</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						</div>
-						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/IMG_4052.jpg" alt="" /></span>
-						</div>
-					</div>
-				</div>
-			</section>
+    <!--DEMO01-->
+    <div id="animatedModal" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Geschäfts Eines<br /> Web-Studios</h2>
+                        <div class="h-50"></div>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br /> <img src="img/portfolio/02.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br /> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!--  plugins  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
 
+    <!--  main script  -->
+    <script src="js/custom.js"></script>
+</body>
 
-		<!-- Three --> <!--MY SKILLS-->
-			<section id="two" class="main style1 special" data-aos="fade-up">
-				<div class="container">
-					<header class="major">
-						<h2>MY SKILLS</h2>
-					</header>
-					<p>An almost indispensable skill for any successful person is the ability to pose the right questions before trying to find answers to it. Aside from the time management skills, problem solving skills, inter personal skills; some of the notable skillset which I have cultivated up throughout my time in school and college are mentioned henceforth.</p>
-					<div class="row gtr-150">
-						<div class="col-4 col-12-medium">
-							<img src="images/python.png" class="skills-icons-svg" alt="jpg" style="width:50px;height:50px;">
-							<p><b>Python</b></p>
-						</div>
-						<!--
-						<div class="col-4 col-12-medium">
-							<img src="images/html-5.png" class="skills-icons-svg" alt="jpg" style="width:50px;height:50px;">
-							<p><b>HTML</b></p>
-						</div>
-						<div class="col-4 col-12-medium">
-							<img src="images/java.png" class="skills-icons-svg" alt="jpg" style="width:50px;height:50px;">
-							<p><b>Java</b></p>
-						</div>
-						-->
-						<div class="col-4 col-12-medium">
-							<img src="images/mysql.png" class="skills-icons-svg" alt="jpg" style="width:50px;height:50px;">
-							<p><b>MySQL</b></p>
-						</div>
-						<div class="col-4 col-12-medium">
-							<img src="images/artificial-intelligence.png" class="skills-icons-svg" alt="jpg" style="width:50px;height:50px;">
-							<p><b>Machine Learning</b></p>
-						</div>
-						<div class="col-4 col-12-medium">
-							<img src="images/tensorflow.png" class="skills-icons-svg" alt="jpg" style="width:50px;height:50px;">
-							<p><b>Deep Learning</b></p>
-						</div>
-						<div class="col-4 col-12-medium">
-							<img src="images/matplotlib.png" class="skills-icons-svg" alt="jpg" style="width:50px;height:50px;">
-							<p><b>Data Visualisation</b></p>
-						</div>
-						<div class="col-4 col-12-medium">
-							<img src="images/excel.png" class="skills-icons-svg" alt="jpg" style="width:50px;height:50px;">
-							<p><b>Microsoft Excel</b></p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		<!-- Three --> <!--PROJECTS-->
-			<section id="three" class="main style1 special" data-aos="fade-up">
-				<div class="container">
-					<header class="major">
-						<h2>PROJECTS</h2>
-					</header>
-					<p></p>
-					<div class="row gtr-150">
-						<!--
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/crude_oil_2.jpg" alt="" /></span>
-							<h3>SSOE Crude Oil Forecasting</h3>
-							<ul class="actions special">
-								<li><a href="https://github.com/datablogger-ml/SSOE-Crude-Oil-Forecasting" class="button" target="_blank">More</a></li>
-							</ul>
-						</div>
-						-->
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/S&P500.png" alt="" /></span>
-							<h3>Anomaly Detection</h3>
-							<p>Detecting Anomalies in the S&P 500 index using Tensorflow 2 Keras API with LSTM Autoencoder model.</p>
-							<ul class="actions special">
-								<li><a href="https://github.com/datablogger-ml/Anomaly-detection-with-Keras" class="button" target="_blank">More</a></li>
-							</ul>
-						</div>
-						<!--
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/cappit.png" alt="" /></span>
-							<h3>Automatic Caption Generator</h3>
-							<ul class="actions special">
-								<li><a href="https://aicaption.herokuapp.com" class="button" target="_blank">More</a></li>
-							</ul>
-						</div>
-						-->
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/TimeSeries.png" alt="" /></span>
-							<h3>Time Series Forecasting</h3>
-							<p>Forecasting the ice cream and frozen desert Industrial Production Index for USA using various time series methods.</p>
-							<ul class="actions special">
-								<li><a href="https://github.com/datablogger-ml/Time-Series-Forecasting" class="button" target="_blank">More</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/tweet.png" alt=""/></span>
-							<h3>Twitter Analytics</h3>
-							<p>Scraping Twitter Data and Visualising the Trends, Topics and Sentiments using NLP Techniques.</p>
-							<ul class="actions special">
-								<li><a href="https://github.com/datablogger-ml/twitter-analytics" class="button" target="_blank">More</a></li>
-							</ul>
-						</div>
-						<!--
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/S&P500.png" alt="" /></span>
-							<h3>Empty Project</h3>
-							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</div>
-						-->
-					</div>
-				</div>
-			</section>
-		
-		<!-- Four -->  <!--RESUME SECTION-->
-		
-			<section id="four" class="main style1 special" data-aos="fade-up">
-				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-9 col-12-medium">
-							<header class="major">
-								<h2>Resume</h2>
-							</header>
-							<p>Here you can download my resume. A word of caution though: I have a pretty steep learning curve - as I'm always learning and experimenting with new things, so the resume may not cover all my latest skill sets. If you are interested, you can check out my
-							<a href="https://github.com/datablogger-ml" style="color:blue;" target="_blank">Github</a> and <a href="https://www.linkedin.com/in/vasu-bhadra/" style="color:blue;" target="_blank">LinkedIn</a> profile apart from this to get a better understanding of the work that I do.</p>
-							
-							<!---
-							<div class="container">
-								<div class="center">
-									<button class="btn">
-										<svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-									  		<polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-									  		<polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-										</svg>
-										<span>HOVER ME</span>
-									</button>
-								</div>
-							</div>
-							-->
-
-							<ul class="actions special">
-								<li><a href="https://datablogger-ml.github.io/resume/" class="button icon solid fa-download" target="_blank">DOWNLOAD</a></li>
-						
-							</ul>
-						</div>
-						<div class="col-3 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/resume_folder.svg" alt="" /></span>
-						</div>			
-					</div>
-				</div>
-			</section>
-			
-
-		<!-- Footer -->
-			<section id="footer">
-				<header class="major">
-					<h2>CONTACT ME</h2>
-				</header>
-
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/vasu-bhadra/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/datablogger-ml" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-					<li><a href="mailto: vasubhadra@gmail.com" class="icon solid alt fa-envelope-open" target="_blank"><span class="label">Email</span></a></li>
-				</ul>
-				
-			</section>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  			<script>
-    			AOS.init({
-					offset: 400,
-					duration: 1500
-				});
-  			</script>
-	</body>
 </html>
